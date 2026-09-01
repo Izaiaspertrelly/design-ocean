@@ -1,0 +1,73 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "brand": "Ocean Health",
+    "version": "1.0.0",
+    "updated": "2026-09-01",
+    "description": "Tokens oficiais da identidade Ocean Health"
+  },
+  "color": {
+    "ocean": { "value": "#4800EF", "oklch": "oklch(45% 0.29 278)", "rgb": "72 0 239", "usage": "marca, fundos dominantes, CTA" },
+    "oceanDeep": { "value": "#200077", "oklch": "oklch(26% 0.18 279)", "rgb": "32 0 119", "usage": "profundidade, rodape, navegação escura" },
+    "current": { "value": "#00DBF9", "oklch": "oklch(81% 0.16 210)", "rgb": "0 219 249", "usage": "movimento, foco, destaque" },
+    "sky": { "value": "#EFFBFF", "oklch": "oklch(98% 0.015 230)", "rgb": "239 251 255", "usage": "fundo claro cromatico" },
+    "ink": { "value": "#15192D", "oklch": "oklch(22% 0.04 275)", "rgb": "21 25 45", "usage": "texto principal" },
+    "muted": { "value": "#484F64", "oklch": "oklch(43% 0.035 270)", "rgb": "72 79 100", "usage": "texto secundario" },
+    "line": { "value": "#D4DAEC", "oklch": "oklch(89% 0.025 270)", "rgb": "212 218 236", "usage": "divisores" },
+    "white": { "value": "#FFFFFF", "oklch": "oklch(100% 0 0)", "rgb": "255 255 255", "usage": "respiro e contraste" },
+    "success": { "value": "#008745", "oklch": "oklch(54% 0.15 155)", "rgb": "0 135 69", "usage": "confirmacao funcional, nunca cor de marca dominante" }
+  },
+  "typography": {
+    "display": { "family": "Gabarito", "fallback": "Arial, sans-serif", "weights": [600, 700, 800] },
+    "text": { "family": "Albert Sans", "fallback": "Arial, sans-serif", "weights": [400, 500, 600, 700] },
+    "maxBodyMeasure": "70ch",
+    "trackingDisplayMin": "-0.04em"
+  },
+  "spacing": {
+    "base": 8,
+    "scale": [4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 120, 140],
+    "desktopGutter": "32-48px",
+    "mobileGutter": "20-24px",
+    "marketingSectionDesktop": "96-140px"
+  },
+  "layout": {
+    "containerMax": "1280px",
+    "desktopColumns": 12,
+    "mobileColumns": 4,
+    "buttonHeight": "48-54px",
+    "touchTargetMin": "44px"
+  },
+  "radius": {
+    "small": "7px",
+    "medium": "12px",
+    "large": "16px",
+    "photoSpecial": "asymmetric; derived from wordmark, not generic blob"
+  },
+  "motion": {
+    "hoverTranslate": "2-4px",
+    "durationFast": "180-250ms",
+    "durationReveal": "450-700ms",
+    "reducedMotion": "disable transforms and animated masks"
+  },
+  "currentStroke": {
+    "color": "{color.current}",
+    "linecap": "round",
+    "linejoin": "round",
+    "relativeThickness": "1.2%-2.2% of artwork width",
+    "behavior": "hand-drawn, horizontal, asymmetric, one dominant gesture per composition"
+  },
+  "logo": {
+    "primary": "../assets/logos/ocean-health-primary.png",
+    "white": "../assets/logos/ocean-health-white.png",
+    "digitalMinWidth": "132px",
+    "printMinWidth": "32mm",
+    "clearSpace": "2x where x is the HEALTH cap height",
+    "forbidden": ["white backing box on dark backgrounds", "distortion", "effects", "unapproved recolor", "screenshot-derived logo"]
+  },
+  "accessibility": {
+    "target": "WCAG 2.2 AA",
+    "normalTextContrast": "4.5:1",
+    "largeTextAndUIContrast": "3:1",
+    "focusStyle": "3px Current outline with 3px offset"
+  }
+}
