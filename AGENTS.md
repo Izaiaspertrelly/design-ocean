@@ -9,6 +9,7 @@ Ao criar, revisar ou adaptar qualquer material da Ocean Health:
 5. Execute o checklist de `agent/design-checklist.md` antes de entregar.
 6. Não invente alegacoes de cobertura, rede, preço, registro ANS, certificacoes ou disponibilidade. Quando faltarem dados, use texto de exemplo claramente identificado.
 7. Entregue arquivos editaveis, exportações finais e um resumo das decisoes de design.
+8. Rode a skill PertrellyUI (`agent/pertrellyui/` e a skill org `pertrellyui`) em peça de interface. Em conflito, o manual e os tokens da Ocean vencem.
 
 Se houver conflito, a ordem de prioridade e:
 
